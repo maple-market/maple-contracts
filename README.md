@@ -1,6 +1,8 @@
 # MapleMarket Contracts
 
-This code is only for reference at this time.
+maplemarket.xyz is in alpha stage, it only supports DeFi Kingdoms at the moment, and it's using [dfkearn contracts](https://github.com/dfk-earn/dfkearn-contracts). 
 
-- It may differ from the version we deployed in production.
-- This version is for Harmony chain.
+Future development: 
+* Support ERC721/1155 (dfkearn only supports ERC20, since DFK Eggs are ERC20)
+* Support dynamic cost unit (dfkearn set this fixed to Jewel) 
+* support more order types: auction, P2P exchange 
